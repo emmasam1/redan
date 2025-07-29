@@ -1,130 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Property Newsletter</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-      <link rel="preload" as="image" href="assets/images/banner/21.webp" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Invena – A modern and responsive HTML template for consulting businesses. Perfect for finance, corporate, and agency websites. SEO-friendly, fast-loading, and easy to customize. Create a professional online presence today!"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/images/fav.png"
+    />
+    <title>Real Estate Developers Association of Nigeria</title>
+    <link
+      rel="stylesheet preload"
+      href="assets/css/plugins/fontawesome.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet preload"
+      href="assets/css/plugins/swiper.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet preload"
+      href="assets/css/plugins/metismenu.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet preload"
+      href="assets/css/plugins/magnifying-popup.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet preload"
+      href="assets/css/plugins/odometer.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet preload"
+      href="assets/css/vendor/bootstrap.min.css"
+      as="style"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&amp;display=swap"
+      rel="stylesheet preload"
+      as="style"
+    />
+    <link rel="preload" as="image" href="assets/images/banner/21.webp" />
     <link rel="stylesheet preload" href="assets/css/style.css" as="style" />
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="assets/images/banner/21.webp" />
+    <link rel="stylesheet preload" href="assets/css/style.css" as="style" />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
 
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: #f5f7fa;
-      color: #333;
-      line-height: 1.6;
-    }
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #f5f7fa;
+        color: #333;
+        line-height: 1.6;
+      }
 
-    section {
-      padding: 4rem 1.5rem;
-      max-width: 800px;
-      margin: 0 auto;
-    }
+      section {
+        padding: 4rem 1.5rem;
+        max-width: 800px;
+        margin: 0 auto;
+      }
 
-    h1, h2 {
-      color: #1a202c;
-      margin-bottom: 1rem;
-    }
+      h1,
+      h2 {
+        color: #1a202c;
+        margin-bottom: 1rem;
+      }
 
-    p {
-      margin-bottom: 1.2rem;
-      color: #555;
-    }
+      p {
+        margin-bottom: 1.2rem;
+        color: #555;
+      }
 
-    .intro {
-      background-color: #e0f2fe;
-      text-align: center;
-      padding-top: 6rem;
-      padding-bottom: 6rem;
-    }
+      .intro {
+        background-color: #e0f2fe;
+        text-align: center;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+      }
 
-    .intro h1 {
-      font-size: 2.25rem;
-    }
-
-    .highlight {
-      color: #2563eb;
-      font-weight: 600;
-    }
-
-    .benefits,
-    .testimonials,
-    .features {
-      background-color: #fff;
-      margin-top: 2rem;
-      border-radius: 12px;
-      padding: 2rem;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
-    }
-
-    .features ul {
-      list-style: disc;
-      padding-left: 1.5rem;
-    }
-
-    .testimonials blockquote {
-      font-style: italic;
-      background: #f0f4f8;
-      border-left: 4px solid #2563eb;
-      padding: 1rem;
-      margin: 1.5rem 0;
-      border-radius: 8px;
-    }
-
-    .newsletter-form {
-      background-color: #fff;
-      padding: 3rem 2rem;
-      border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
-      margin-top: 3rem;
-      text-align: center;
-    }
-
-    .newsletter-form input[type="email"] {
-      padding: 0.75rem;
-      width: 100%;
-      max-width: 400px;
-      margin: 1rem auto;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      font-size: 1rem;
-    }
-
-    .newsletter-form button {
-      background-color: #2563eb;
-      color: #fff;
-      padding: 0.75rem 1.5rem;
-      border: none;
-      border-radius: 8px;
-      font-size: 1rem;
-      margin-top: 1rem;
-      cursor: pointer;
-      transition: background-color 0.2s ease;
-    }
-
-    .newsletter-form button:hover {
-      background-color: #1e40af;
-    }
-
-    @media (min-width: 768px) {
       .intro h1 {
-        font-size: 2.75rem;
+        font-size: 2.25rem;
+      }
+
+      .highlight {
+        color: #2563eb;
+        font-weight: 600;
+      }
+
+      .benefits,
+      .testimonials,
+      .features {
+        background-color: #fff;
+        margin-top: 2rem;
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+      }
+
+      .features ul {
+        list-style: disc;
+        padding-left: 1.5rem;
+      }
+
+      .testimonials blockquote {
+        font-style: italic;
+        background: #f0f4f8;
+        border-left: 4px solid #2563eb;
+        padding: 1rem;
+        margin: 1.5rem 0;
+        border-radius: 8px;
+      }
+
+      .newsletter-form {
+        background-color: #fff;
+        padding: 3rem 2rem;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+        margin-top: 3rem;
+        text-align: center;
       }
 
       .newsletter-form input[type="email"] {
-        font-size: 1.125rem;
+        padding: 0.75rem;
+        width: 100%;
+        max-width: 400px;
+        margin: 1rem auto;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 1rem;
       }
-    }
-  </style>
-</head>
-<body>
 
+      .newsletter-form button {
+        background-color: #2563eb;
+        color: #fff;
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        margin-top: 1rem;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      }
+
+      .newsletter-form button:hover {
+        background-color: #1e40af;
+      }
+
+      @media (min-width: 768px) {
+        .intro h1 {
+          font-size: 2.75rem;
+        }
+
+        .newsletter-form input[type="email"] {
+          font-size: 1.125rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
     <header class="header-one header--sticky">
       <div class="header-top-area-wrapper">
         <div class="container">
@@ -188,11 +240,11 @@
                 <div class="main-header">
                   <div class="nav-area">
                     <ul class="links">
-                      <a href="#">Home</a>
-                      <a href="#">About</a>
+                      <a href="index.html">Home</a>
+                      <a href="about.html">About</a>
                       <a href="news-letter.html">News Letter</a>
                       <a href="#">Blog</a>
-                      <a href="#">Contact</a>
+                      <a href="contact.html">Contact</a>
                     </ul>
                   </div>
 
@@ -201,7 +253,6 @@
                     <div class="loader-section section-left"></div>
                     <div class="loader-section section-right"></div>
                   </div>
-                
                 </div>
               </div>
             </div>
@@ -210,59 +261,88 @@
       </div>
     </header>
 
-  <!-- Intro -->
-  <section class="intro">
-    <h1>Subscribe to the <span class="highlight">Property Insights</span> Newsletter</h1>
-    <p>Get the latest listings, market trends, and investment tips straight to your inbox.</p>
-  </section>
+    <!-- Intro -->
+    <section class="intro">
+      <h1>
+        Subscribe to the
+        <span class="highlight">Property Insights</span> Newsletter
+      </h1>
+      <p>
+        Get the latest listings, market trends, and investment tips straight to
+        your inbox.
+      </p>
+    </section>
 
-  <!-- Benefits -->
-  <section class="benefits">
-    <h2>Why Subscribe?</h2>
-    <p>Our weekly newsletter keeps you informed about:</p>
-    <ul>
-      <li>Newly listed properties across various locations</li>
-      <li>Price changes and investment opportunities</li>
-      <li>Neighborhood guides and buyer tips</li>
-      <li>Exclusive off-market deals</li>
-    </ul>
-  </section>
+    <!-- Benefits -->
+    <section class="benefits">
+      <h2>Why Subscribe?</h2>
+      <p>Our weekly newsletter keeps you informed about:</p>
+      <ul>
+        <li>Newly listed properties across various locations</li>
+        <li>Price changes and investment opportunities</li>
+        <li>Neighborhood guides and buyer tips</li>
+        <li>Exclusive off-market deals</li>
+      </ul>
+    </section>
 
-  <!-- Testimonials -->
-  <section class="testimonials">
-    <h2>What Our Readers Say</h2>
-    <blockquote>
-      “Thanks to this newsletter, I found a beautiful 3-bedroom apartment before it even hit the market!”
-      <br>– Sarah D., Lagos
-    </blockquote>
-    <blockquote>
-      “Every issue is packed with value. It helps me track real estate trends effortlessly.”
-      <br>– Tunde A., Abuja
-    </blockquote>
-  </section>
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <h2>What Our Readers Say</h2>
+      <blockquote>
+        “Thanks to this newsletter, I found a beautiful 3-bedroom apartment
+        before it even hit the market!”
+        <br />– Sarah D., Lagos
+      </blockquote>
+      <blockquote>
+        “Every issue is packed with value. It helps me track real estate trends
+        effortlessly.”
+        <br />– Tunde A., Abuja
+      </blockquote>
+    </section>
 
-  <!-- Features -->
-  <section class="features">
-    <h2>What You'll Receive</h2>
-    <ul>
-      <li>Weekly curated property listings</li>
-      <li>Expert advice on buying and selling</li>
-      <li>Rental insights for landlords</li>
-      <li>Real-time market updates</li>
-      <li>Personalized property alerts</li>
-    </ul>
-  </section>
+    <!-- Features -->
+    <section class="features">
+      <h2>What You'll Receive</h2>
+      <ul>
+        <li>Weekly curated property listings</li>
+        <li>Expert advice on buying and selling</li>
+        <li>Rental insights for landlords</li>
+        <li>Real-time market updates</li>
+        <li>Personalized property alerts</li>
+      </ul>
+    </section>
 
-  <!-- Newsletter Form -->
-  <section class="newsletter-form">
-    <h2>Ready to Stay Ahead?</h2>
-    <p>Enter your email below to join thousands of smart property enthusiasts.</p>
-    <form>
-      <input type="email" placeholder="Enter your email address" required />
-      <br />
-      <button type="submit">Subscribe Now</button>
-    </form>
-  </section>
+    <!-- Newsletter Form -->
+    <section class="newsletter-form">
+      <h2>Ready to Stay Ahead?</h2>
+      <p>
+        Enter your email below to join thousands of smart property enthusiasts.
+      </p>
+      <form>
+        <input type="email" placeholder="Enter your email address" required />
+        <br />
+        <button type="submit">Subscribe Now</button>
+      </form>
+    </section>
 
-</body>
+
+    <script defer src="assets/js/plugins/jquery.js"></script>
+
+<script defer src="assets/js/plugins/odometer.js"></script>
+<script defer src="assets/js/plugins/jquery-appear.js"></script>
+
+
+<script defer src="assets/js/plugins/gsap.js"></script>
+<script defer src="assets/js/plugins/split-text.js"></script>
+<script defer src="assets/js/plugins/scroll-trigger.js"></script>
+<script defer src="assets/js/plugins/smooth-scroll.js"></script>
+<script defer src="assets/js/plugins/metismenu.js"></script>
+<script defer src="assets/js/plugins/popup.js"></script>
+
+<script defer src="assets/js/vendor/bootstrap.min.js"></script>
+<script defer src="assets/js/plugins/swiper.js"></script>
+<script defer src="assets/js/plugins/contact.form.js"></script>
+
+<script defer src="assets/js/main.js"></script>
+  </body>
 </html>
