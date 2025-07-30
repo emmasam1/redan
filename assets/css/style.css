@@ -5507,15 +5507,23 @@ Copyright (c) 2015 Daniel Eden
 .my_title{
   font-size: 20px !important;
 }
+.footer_logo{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: white;
+}
+.footer_logo:hover{
+  color: whitesmoke !important;
+}
 
 .navigation-wrapper{
-   background-color: #DD3333;
+   /* background-color: #DD3333; */
    width: 100%;
    padding: 15px 0;
 }
 .links a{
   font-weight: 600;
-  color: white;
+  color: #DD3333;
 }
 .header-main-one-wrapper {
   display: flex;
@@ -7916,6 +7924,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 .banner-inner-two-content .pre-title {
   margin-bottom: 25px;
   text-transform: uppercase;
+  font-size: 23px !important;
 }
 .banner-inner-two-content .pre-title span {
   text-transform: uppercase;
@@ -7926,7 +7935,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
   color: #fff;
 }
 .banner-inner-two-content .title {
-  font-size: 80px;
+  font-size: 50px;
   line-height: 1.2;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -9982,7 +9991,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
   }
 }
 .rts-btn.btn-primary {
-  background: var(--color-primary);
+  background: #DD3333;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -10024,10 +10033,10 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
   color: #20282D;
 }
 .rts-btn.btn-primary.btn-white::before {
-  background: var(--color-primary);
+  background: #DD3333;
 }
 .rts-btn.btn-primary.btn-white:hover {
-  background: var(--color-primary);
+  background: #DD3333;
   color: #F2F2F2;
 }
 .rts-btn.btn-primary.btn-white:hover::before {
@@ -10082,7 +10091,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 }
 .about-content-left-one .call-and-sign-area .call-area .information .title {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 26px;
   color: #1C2539;
   margin: 0;
@@ -10258,7 +10267,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
   margin: 5px 0;
 }
 .about-inner-content-two .about-between-wrapper .check-wrapper-area .single-check i {
-  color: #20282D;
+  color: #DD3333;
 }
 .about-inner-content-two .about-between-wrapper .check-wrapper-area .single-check p {
   margin: 0;
@@ -10332,7 +10341,7 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 .left-thumbnail-about-area-two .counter-about-area {
   position: absolute;
   padding: 50px 33px;
-  background: #20282D;
+  background: #DD3333;
   position: absolute;
   top: 50px;
   left: -75px;
@@ -11391,7 +11400,7 @@ section.main-wrapper-sticky .sticky-statement .right .arrow i {
   box-shadow: 0px 30px 20px rgba(182, 182, 182, 0.1);
 }
 .service-style-swiper-wrapper-two .swiper-slide-active .single-service-signle-wrapper .arrow-right i {
-  background: #20282D;
+  background: #DD3333;
   color: #fff;
 }
 
@@ -12686,7 +12695,7 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
 }
 .title-style-two .pre {
   font-size: 16px;
-  color: #000000;
+  color: #DD3333;
   display: flex;
   text-transform: uppercase;
   margin-bottom: 22px;
@@ -12698,6 +12707,7 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
   font-size: 48px;
   font-weight: 700;
   line-height: 1.35;
+  color: #141416;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .title-style-two .title {
@@ -12992,7 +13002,7 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
   height: 55px;
   width: 55px;
   border-radius: 50px;
-  background: var(--color-primary);
+  background: #DD3333;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15409,6 +15419,10 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
 
 .mb--310 {
   margin-bottom: 310px;
+}
+
+.mt-20{
+  margin-top: 25px !important;
 }
 
 .mt-dec-footer-map .map-area-main-wrapper {
@@ -17861,6 +17875,7 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
   color: #fff;
   margin-bottom: -2px;
   font-weight: 700;
+  font-size: 35px;
 }
 .counter-bg .single-counter .counter-details p {
   color: #fff;
